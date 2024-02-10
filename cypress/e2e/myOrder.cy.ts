@@ -22,16 +22,12 @@ describe("Create_Myorder", () => {
     cy.itemsInSystem()
     cy.get('.confirm-button>span').should('have.text', ' สร้างออเดอร์ ').click()
     cy.get('.display>div[class="message"]').contains('บันทึกสำเร็จ')
-    cy.validateOrder
+    cy.validateOrder()
 
 
   });
 
-
-
-
-
-
+  
 })
 
 

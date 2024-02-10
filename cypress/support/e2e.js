@@ -15,8 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import 'cypress-if'
-import './commands'
-import './Log_in'
-import './myOrder'
+import './login'
+import './handleOrder'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
